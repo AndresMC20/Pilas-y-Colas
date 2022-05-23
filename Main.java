@@ -16,6 +16,9 @@ public class Main {
         lista.mostrar();
         */
 
+
+
+        /*
         Cola cola = new Cola();
         System.out.println(cola.esta_vacia());
         for(int i = 1; i <= 5; i++){
@@ -27,6 +30,23 @@ public class Main {
         cola.eliminarInicio();
         cola.eliminarInicio();
         cola.mostrar();
+        */
+
+
+
+        Pila pila = new Pila();
+        System.out.println(pila.esta_vacia());
+
+        for (int i = 1; i <=5; i++){
+            pila.insertarInicio(i);
+        }
+
+        pila.mostrar();
+
+        pila.eliminarInicio();
+        pila.eliminarInicio();
+        pila.eliminarInicio();
+        pila.mostrar();
 
     }
     
